@@ -9,3 +9,7 @@ Start commands:
 
 ### Link to the render server:
 https://f2wb59adhikari.onrender.com/ 
+
+### Class
+Class Name: Icecream <br>
+Attributes: cone(string), flavour(string), numOfScoops(number)
