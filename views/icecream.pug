@@ -2,3 +2,8 @@ extends layout
 
 block content
 	h1= title
+	- let results = [{cone: "regular",flavour: "choc",numOfScoops: 2,},{cone: "waffle",flavour: "vanilla",numOfScoops: 1,}, {cone: "dipped",flavour: "strawberry",numOfScoops: 2,}];
+	div(class='container-fluid')
+		div(class='row')
+			each val in results
+				div(class='col-sm-2') Icecream: <br/>Cone - #{val.cone} <br/>Flavour - #{val.flavour} <br/>Num of Scoops - #{val.numOfScoops}
